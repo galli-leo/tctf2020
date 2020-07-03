@@ -1,0 +1,162 @@
+<Node ExecSingle, 0x56580700>: 
+	<Node Arith, 0x56586564>: child0 == child1
+		<Node ExecSingle, 0x56580ea8>: 
+			<Node ExecMult, 0x565867d0>: 
+				<Node ExecSingleRetZero, 0x56586d98>: 
+					<Node Malloc, 0x56581718>: main_funcs[6] = malloc(4)
+				<Node ExecSingleRetZero, 0x56586dd4>: 
+					<Node Malloc, 0x565817a4>: main_funcs[7] = malloc(4)
+				<Node Arith, 0x56586e88>: *(Dword*)child0 = child1
+					<Node GetMain, 0x565817cc>: main_funcs[7]
+					<Node Deref, 0x56586ed8>: *(Dword*)child
+						<Node MemOffset, 0x565818a8>: child0 + 4 * child1
+							<Node Deref, 0x56586398>: child
+								<Node GetMain, 0x56580df4>: main_funcs[3]
+							<Node RetArg1, 0x5657e11c>: return 0x0
+				<Node Loop, 0x5657f29c>: 
+					<Node Arith, 0x56583a68>: *(Dword*)child0 = child1
+						<Node GetMain, 0x5657f378>: main_funcs[6]
+						<Node Deref, 0x565837fc>: child
+							<Node RetArg1, 0x5657e11c>: return 0x0
+					<Node RetZero, 0x5658389c>: 
+					<Node Arith, 0x5657f1fc>: child0 < child1
+						<Node Deref, 0x56583b1c>: *(Dword*)child
+							<Node GetMain, 0x5657f378>: main_funcs[6]
+						<Node Deref, 0x56580548>: child
+							<Node RetArg1, 0x56585ccc>: return 0x186a0
+					<Node Arith, 0x56580610>: *(Dword*)child0 = child1
+						<Node GetMain, 0x5657f378>: main_funcs[6]
+						<Node Arith, 0x56580480>: child0 + child1
+							<Node Deref, 0x56583b1c>: *(Dword*)child
+								<Node GetMain, 0x5657f378>: main_funcs[6]
+							<Node Deref, 0x56585d30>: child
+								<Node RetArg1, 0x56580728>: return 0x1
+					<Node ExecMult, 0x56585c54>: 
+						<Node Arith, 0x56586e9c>: *(Dword*)child0 = child1
+							<Node GetMain, 0x565817cc>: main_funcs[7]
+							<Node ExecSingle, 0x56586c58>: 
+								<Node Arith, 0x56581664>: child0 ^ child1
+									<Node ExecSingle, 0x56586cf8>: 
+										<Node Arith, 0x565816b4>: child0 ^ child1
+											<Node ExecSingle, 0x56586f00>: 
+												<Node Arith, 0x565818bc>: child0 ^ child1
+													<Node Deref, 0x56586e24>: *(Dword*)child
+														<Node GetMain, 0x565817cc>: main_funcs[7]
+													<Node ExecSingle, 0x56582884>: 
+														<Node Arith, 0x56587c20>: child0 << child1
+															<Node Deref, 0x56586e24>: *(Dword*)child
+																<Node GetMain, 0x565817cc>: main_funcs[7]
+															<Node RetArg1, 0x565826f4>: return 0xd
+											<Node ExecSingle, 0x5657e20c>: 
+												<Node Arith, 0x5658294c>: child0 >> child1
+													<Node ExecSingle, 0x56586f00>: 
+														<Node Arith, 0x565818bc>: child0 ^ child1
+															<Node Deref, 0x56586e24>: *(Dword*)child
+																<Node GetMain, 0x565817cc>: main_funcs[7]
+															<Node ExecSingle, 0x56582884>: 
+																<Node Arith, 0x56587c20>: child0 << child1
+																	<Node Deref, 0x56586e24>: *(Dword*)child
+																		<Node GetMain, 0x565817cc>: main_funcs[7]
+																	<Node RetArg1, 0x565826f4>: return 0xd
+													<Node RetArg1, 0x5657f300>: return 0x11
+									<Node ExecSingle, 0x56583590>: 
+										<Node Arith, 0x5657ef54>: child0 << child1
+											<Node ExecSingle, 0x56586cf8>: 
+												<Node Arith, 0x565816b4>: child0 ^ child1
+													<Node ExecSingle, 0x56586f00>: 
+														<Node Arith, 0x565818bc>: child0 ^ child1
+															<Node Deref, 0x56586e24>: *(Dword*)child
+																<Node GetMain, 0x565817cc>: main_funcs[7]
+															<Node ExecSingle, 0x56582884>: 
+																<Node Arith, 0x56587c20>: child0 << child1
+																	<Node Deref, 0x56586e24>: *(Dword*)child
+																		<Node GetMain, 0x565817cc>: main_funcs[7]
+																	<Node RetArg1, 0x565826f4>: return 0xd
+													<Node ExecSingle, 0x5657e20c>: 
+														<Node Arith, 0x5658294c>: child0 >> child1
+															<Node ExecSingle, 0x56586f00>: 
+																<Node Arith, 0x565818bc>: child0 ^ child1
+																	<Node Deref, 0x56586e24>: *(Dword*)child
+																		<Node GetMain, 0x565817cc>: main_funcs[7]
+																	<Node ExecSingle, 0x56582884>: 
+																		<Node Arith, 0x56587c20>: child0 << child1
+																			<Node Deref, 0x56586e24>: *(Dword*)child
+																				<Node GetMain, 0x565817cc>: main_funcs[7]
+																			<Node RetArg1, 0x565826f4>: return 0xd
+															<Node RetArg1, 0x5657f300>: return 0x11
+											<Node RetArg1, 0x56582de8>: return 0x5
+				<Node Deref, 0x56586e24>: *(Dword*)child
+					<Node GetMain, 0x565817cc>: main_funcs[7]
+		<Node Deref, 0x5657e70c>: child
+			<Node Arith, 0x56583784>: child0 * child1
+				<Node ExecSingle, 0x5657f044>: 
+					<Node Arith, 0x565836e4>: child0 + child1
+						<Node Arith, 0x5657f0bc>: child0 * child1
+							<Node Arith, 0x56584170>: child0 * child1
+								<Node ExecSingle, 0x5657fb20>: 
+									<Node Arith, 0x565841d4>: child0 + child1
+										<Node Arith, 0x5657fa44>: child0 * child1
+											<Node Arith, 0x56584224>: child0 * child1
+												<Node Arith, 0x5657fabc>: child0 * child1
+													<Node Arith, 0x56584094>: child0 * child1
+														<Node Arith, 0x56580390>: child0 * child1
+															<Node Arith, 0x565849f4>: child0 * child1
+																<Node ExecSingle, 0x56580304>: 
+																	<Node Arith, 0x56581510>: child0 + child1
+																		<Node Arith, 0x56586334>: child0 * child1
+																			<Node ExecSingle, 0x56580d04>: 
+																				<Node Arith, 0x565863ac>: child0 + child1
+																					<Node Arith, 0x56580bd8>: child0 * child1
+																						<Node Arith, 0x565863d4>: child0 * child1
+																							<Node Arith, 0x56580c78>: child0 * child1
+																								<Node Arith, 0x56586244>: child0 * child1
+																									<Node Arith, 0x565814d4>: child0 * child1
+																										<Node ExecSingle, 0x56586b2c>: 
+																											<Node Arith, 0x56580f34>: child0 + child1
+																												<Node Arith, 0x565868e8>: child0 * child1
+																													<Node Arith, 0x565812a4>: child0 * child1
+																														<Node Arith, 0x56586848>: child0 * child1
+																															<Node ExecSingle, 0x5658118c>: 
+																																<Node Arith, 0x565868c0>: child0 + child1
+																																	<Node Arith, 0x565810ec>: child0 * child1
+																																		<Node Arith, 0x565867f8>: child0 * child1
+																																			<Node Arith, 0x565813f8>: child0 * child1
+																																				<Node ExecSingle, 0x56586b54>: 
+																																					<Node Arith, 0x56587964>: child0 + child1
+																																						<Node Arith, 0x56582334>: child0 * child1
+																																							<Node Arith, 0x565878b0>: child0 * child1
+																																								<Node Arith, 0x56582244>: child0 * child1
+																																									<Node Arith, 0x56587914>: child0 * child1
+																																										<Node RetArg1, 0x56580728>: return 0x1
+																																										<Node RetArg1, 0x56587838>: return 0x2
+																																									<Node RetArg1, 0x56587838>: return 0x2
+																																								<Node RetArg1, 0x56587838>: return 0x2
+																																							<Node RetArg1, 0x56582de8>: return 0x5
+																																						<Node RetArg1, 0x56580728>: return 0x1
+																																				<Node RetArg1, 0x56587838>: return 0x2
+																																			<Node RetArg1, 0x56587838>: return 0x2
+																																		<Node RetArg1, 0x56582de8>: return 0x5
+																																	<Node RetArg1, 0x56580728>: return 0x1
+																															<Node RetArg1, 0x56587838>: return 0x2
+																														<Node RetArg1, 0x56587838>: return 0x2
+																													<Node RetArg1, 0x56582de8>: return 0x5
+																												<Node RetArg1, 0x56580728>: return 0x1
+																										<Node RetArg1, 0x56587838>: return 0x2
+																									<Node RetArg1, 0x56587838>: return 0x2
+																								<Node RetArg1, 0x56587838>: return 0x2
+																							<Node RetArg1, 0x56587838>: return 0x2
+																						<Node RetArg1, 0x56587838>: return 0x2
+																					<Node RetArg1, 0x56580728>: return 0x1
+																			<Node RetArg1, 0x56587838>: return 0x2
+																		<Node RetArg1, 0x56580728>: return 0x1
+																<Node RetArg1, 0x56587838>: return 0x2
+															<Node RetArg1, 0x56587838>: return 0x2
+														<Node RetArg1, 0x56580444>: return 0x3
+													<Node RetArg1, 0x56580444>: return 0x3
+												<Node RetArg1, 0x56580444>: return 0x3
+											<Node RetArg1, 0x56580444>: return 0x3
+										<Node RetArg1, 0x56580728>: return 0x1
+								<Node RetArg1, 0x56587838>: return 0x2
+							<Node RetArg1, 0x56587838>: return 0x2
+						<Node RetArg1, 0x56580728>: return 0x1
+				<Node RetArg1, 0x56587838>: return 0x2

@@ -1,0 +1,18 @@
+.wrapper {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.wrapper-full {
+    position: absolute;
+    top: 100px;
+    bottom: 0px;
+    width: 100%;
+}
+
+#cy {
+    min-width: 100%;
+    min-height: 100%;
+}

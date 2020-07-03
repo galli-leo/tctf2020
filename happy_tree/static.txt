@@ -1,0 +1,72 @@
+<Node Arith, 0x56583784>: child0 * child1
+<Node ExecSingle, 0x5657f044>: 
+    <Node Arith, 0x565836e4>: child0 + child1
+        <Node Arith, 0x5657f0bc>: child0 * child1
+            <Node Arith, 0x56584170>: child0 * child1
+                <Node ExecSingle, 0x5657fb20>: 
+                    <Node Arith, 0x565841d4>: child0 + child1
+                        <Node Arith, 0x5657fa44>: child0 * child1
+                            <Node Arith, 0x56584224>: child0 * child1
+                                <Node Arith, 0x5657fabc>: child0 * child1
+                                    <Node Arith, 0x56584094>: child0 * child1
+                                        <Node Arith, 0x56580390>: child0 * child1
+                                            <Node Arith, 0x565849f4>: child0 * child1
+                                                <Node ExecSingle, 0x56580304>: 
+                                                    <Node Arith, 0x56581510>: child0 + child1
+                                                        <Node Arith, 0x56586334>: child0 * child1
+                                                            <Node ExecSingle, 0x56580d04>: 
+                                                                <Node Arith, 0x565863ac>: child0 + child1
+                                                                    <Node Arith, 0x56580bd8>: child0 * child1
+                                                                        <Node Arith, 0x565863d4>: child0 * child1
+                                                                            <Node Arith, 0x56580c78>: child0 * child1
+                                                                                <Node Arith, 0x56586244>: child0 * child1
+                                                                                    <Node Arith, 0x565814d4>: child0 * child1
+                                                                                        <Node ExecSingle, 0x56586b2c>: 
+                                                                                            <Node Arith, 0x56580f34>: child0 + child1
+                                                                                                <Node Arith, 0x565868e8>: child0 * child1
+                                                                                                    <Node Arith, 0x565812a4>: child0 * child1
+                                                                                                        <Node Arith, 0x56586848>: child0 * child1
+                                                                                                            <Node ExecSingle, 0x5658118c>: 
+                                                                                                                <Node Arith, 0x565868c0>: child0 + child1
+                                                                                                                    <Node Arith, 0x565810ec>: child0 * child1
+                                                                                                                        <Node Arith, 0x565867f8>: child0 * child1
+                                                                                                                            <Node Arith, 0x565813f8>: child0 * child1
+                                                                                                                                <Node ExecSingle, 0x56586b54>: 
+                                                                                                                                    <Node Arith, 0x56587964>: child0 + child1
+                                                                                                                                        <Node Arith, 0x56582334>: child0 * child1
+                                                                                                                                            <Node Arith, 0x565878b0>: child0 * child1
+                                                                                                                                                <Node Arith, 0x56582244>: child0 * child1
+                                                                                                                                                    <Node Arith, 0x56587914>: child0 * child1
+                                                                                                                                                        <Node RetArg1, 0x56580728>: return 0x1
+                                                                                                                                                        <Node RetArg1, 0x56587838>: return 0x2
+                                                                                                                                                    <Node RetArg1, 0x56587838>: return 0x2
+                                                                                                                                                <Node RetArg1, 0x56587838>: return 0x2
+                                                                                                                                            <Node RetArg1, 0x56582de8>: return 0x5
+                                                                                                                                        <Node RetArg1, 0x56580728>: return 0x1
+                                                                                                                                <Node RetArg1, 0x56587838>: return 0x2
+                                                                                                                            <Node RetArg1, 0x56587838>: return 0x2
+                                                                                                                        <Node RetArg1, 0x56582de8>: return 0x5
+                                                                                                                    <Node RetArg1, 0x56580728>: return 0x1
+                                                                                                            <Node RetArg1, 0x56587838>: return 0x2
+                                                                                                        <Node RetArg1, 0x56587838>: return 0x2
+                                                                                                    <Node RetArg1, 0x56582de8>: return 0x5
+                                                                                                <Node RetArg1, 0x56580728>: return 0x1
+                                                                                        <Node RetArg1, 0x56587838>: return 0x2
+                                                                                    <Node RetArg1, 0x56587838>: return 0x2
+                                                                                <Node RetArg1, 0x56587838>: return 0x2
+                                                                            <Node RetArg1, 0x56587838>: return 0x2
+                                                                        <Node RetArg1, 0x56587838>: return 0x2
+                                                                    <Node RetArg1, 0x56580728>: return 0x1
+                                                            <Node RetArg1, 0x56587838>: return 0x2
+                                                        <Node RetArg1, 0x56580728>: return 0x1
+                                                <Node RetArg1, 0x56587838>: return 0x2
+                                            <Node RetArg1, 0x56587838>: return 0x2
+                                        <Node RetArg1, 0x56580444>: return 0x3
+                                    <Node RetArg1, 0x56580444>: return 0x3
+                                <Node RetArg1, 0x56580444>: return 0x3
+                            <Node RetArg1, 0x56580444>: return 0x3
+                        <Node RetArg1, 0x56580728>: return 0x1
+                <Node RetArg1, 0x56587838>: return 0x2
+            <Node RetArg1, 0x56587838>: return 0x2
+        <Node RetArg1, 0x56580728>: return 0x1
+<Node RetArg1, 0x56587838>: return 0x2

@@ -1,0 +1,53 @@
+<Node Arith, 0x56586e9c>: *(Dword*)child0 = child1
+    <Node GetMain, 0x565817cc>: main_funcs[7]
+    <Node ExecSingle, 0x56586c58>: 
+        <Node Arith, 0x56581664>: child0 ^ child1
+            <Node ExecSingle, 0x56586cf8>: 
+                <Node Arith, 0x565816b4>: child0 ^ child1
+                    <Node ExecSingle, 0x56586f00>: 
+                        <Node Arith, 0x565818bc>: child0 ^ child1
+                            <Node Deref, 0x56586e24>: *(Dword*)child
+                                <Node GetMain, 0x565817cc>: main_funcs[7]
+                            <Node ExecSingle, 0x56582884>: 
+                                <Node Arith, 0x56587c20>: child0 << child1
+                                    <Node Deref, 0x56586e24>: *(Dword*)child
+                                        <Node GetMain, 0x565817cc>: main_funcs[7]
+                                    <Node RetArg1, 0x565826f4>: return 0xd
+                    <Node ExecSingle, 0x5657e20c>: 
+                        <Node Arith, 0x5658294c>: child0 >> child1
+                            <Node ExecSingle, 0x56586f00>: 
+                                <Node Arith, 0x565818bc>: child0 ^ child1
+                                    <Node Deref, 0x56586e24>: *(Dword*)child
+                                        <Node GetMain, 0x565817cc>: main_funcs[7]
+                                    <Node ExecSingle, 0x56582884>: 
+                                        <Node Arith, 0x56587c20>: child0 << child1
+                                            <Node Deref, 0x56586e24>: *(Dword*)child
+                                                <Node GetMain, 0x565817cc>: main_funcs[7]
+                                            <Node RetArg1, 0x565826f4>: return 0xd
+                            <Node RetArg1, 0x5657f300>: return 0x11
+            <Node ExecSingle, 0x56583590>: 
+                <Node Arith, 0x5657ef54>: child0 << child1
+                    <Node ExecSingle, 0x56586cf8>: 
+                        <Node Arith, 0x565816b4>: child0 ^ child1
+                            <Node ExecSingle, 0x56586f00>: 
+                                <Node Arith, 0x565818bc>: child0 ^ child1
+                                    <Node Deref, 0x56586e24>: *(Dword*)child
+                                        <Node GetMain, 0x565817cc>: main_funcs[7]
+                                    <Node ExecSingle, 0x56582884>: 
+                                        <Node Arith, 0x56587c20>: child0 << child1
+                                            <Node Deref, 0x56586e24>: *(Dword*)child
+                                                <Node GetMain, 0x565817cc>: main_funcs[7]
+                                            <Node RetArg1, 0x565826f4>: return 0xd
+                            <Node ExecSingle, 0x5657e20c>: 
+                                <Node Arith, 0x5658294c>: child0 >> child1
+                                    <Node ExecSingle, 0x56586f00>: 
+                                        <Node Arith, 0x565818bc>: child0 ^ child1
+                                            <Node Deref, 0x56586e24>: *(Dword*)child
+                                                <Node GetMain, 0x565817cc>: main_funcs[7]
+                                            <Node ExecSingle, 0x56582884>: 
+                                                <Node Arith, 0x56587c20>: child0 << child1
+                                                    <Node Deref, 0x56586e24>: *(Dword*)child
+                                                        <Node GetMain, 0x565817cc>: main_funcs[7]
+                                                    <Node RetArg1, 0x565826f4>: return 0xd
+                                    <Node RetArg1, 0x5657f300>: return 0x11
+                    <Node RetArg1, 0x56582de8>: return 0x5
